@@ -284,3 +284,41 @@ button.slick-prev.slick-arrow:hover:before,button.slick-next.slick-arrow:hover:b
 .bt-1{
     border-top: 1px solid #374151;
 }
+.box-h-308{
+    height: 308px;
+}
+
+
+/* ================================
+Responsive CSS
+================================ */
+@media screen and (max-width:992px) {
+    :root{
+        --font-56: 48px;
+    }
+    .sec-gap{
+        padding: 50px 0px;
+    }
+}
+
+@media screen and (max-width:666px) {
+    :root{
+        --font-56: 38px;
+        --font-48: 28px;
+    }
+    .sec-gap{
+        padding: 40px 0px;
+    }
+    body,.btn{
+        font-size: 14px;
+    }
+    .input-has-button input {
+        width: 60%;
+    }
+    .trade-partner-box{
+        border: 1px solid rgba(0, 0, 0, 0.13) !important;
+        width: 100%;
+        padding: 32px;
+    }
+}
+
